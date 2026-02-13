@@ -1,6 +1,6 @@
 "use client";
 
-import { Heart, Flower2, BookOpen, Car, Church, Users } from "lucide-react";
+import { Heart, FileText, BookOpen, Car, Landmark, Users } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const services = [
@@ -10,9 +10,9 @@ const services = [
     description: "Prise en charge totale des obsèques, de la déclaration de décès à la cérémonie.",
   },
   {
-    icon: Flower2,
-    title: "Fleurs & Couronnes",
-    description: "Compositions florales sur mesure pour rendre un dernier hommage avec élégance.",
+    icon: FileText,
+    title: "Démarches administratives",
+    description: "Prise en charge des formalités et des documents essentiels.",
   },
   {
     icon: BookOpen,
@@ -25,9 +25,9 @@ const services = [
     description: "Transport du défunt en toute dignité, en France et à l'international.",
   },
   {
-    icon: Church,
+    icon: Landmark,
     title: "Cérémonies",
-    description: "Organisation de cérémonies religieuses ou civiles personnalisées.",
+    description: "Organisation de cérémonies religieuses personnalisées.",
   },
   {
     icon: Users,
@@ -44,7 +44,7 @@ const ServicesSection = () => {
           <p className="text-accent font-medium tracking-[0.2em] uppercase text-sm mb-3">
             Ce que nous offrons
           </p>
-          <h2 className="text-3xl md:text-5xl font-heading font-bold text-foreground mb-4">
+          <h2 className="text-3xl md:text-5xl font-heading font-bold text-foreground/80 mb-4">
             Nos Services
           </h2>
           <div className="divider-gold mt-6" />

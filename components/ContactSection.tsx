@@ -21,10 +21,10 @@ const ContactSection = () => {
           <AnimatedSection>
             <div className="space-y-8">
               {[
-                { icon: Phone, label: "Téléphone (24h/24)", value: "06 50 67 91 48", href: "tel:+33650679148" },
+                { icon: Phone, label: "Téléphone", value: "06 50 67 91 48", href: "tel:+33650679148" },
                 { icon: Mail, label: "Email", value: "contact@espoir-funeraire.fr", href: "mailto:contact@espoir-funeraire.fr" },
                 { icon: MapPin, label: "Adresse", value: "30 Avenue du Bois Labbe, Rennes, France" },
-                { icon: Clock, label: "Disponibilité", value: "24 heures sur 24, 7 jours sur 7" },
+                { icon: Clock, label: "Disponibilité", value: "7 jours sur 7" },
               ].map((info) => (
                 <div key={info.label} className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-lg gold-gradient flex items-center justify-center shrink-0 shadow-lg">
@@ -95,7 +95,7 @@ const ContactSection = () => {
               <div className="flex justify-center">
                 <button
                   type="submit"
-                  className="group inline-flex w-full max-w-md items-center justify-center gap-2 rounded-xl gold-gradient px-10 py-4 text-base font-semibold tracking-wide text-accent-foreground transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 hover:brightness-110"
+                  className="group inline-flex w-full max-w-md items-center justify-center gap-2 rounded-xl gold-gradient px-10 py-4 text-base font-semibold tracking-wide text-accent-foreground transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 hover:brightness-110 cursor-pointer"
                 >
                   <Send className="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
                   Envoyer le message

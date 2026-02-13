@@ -6,7 +6,7 @@ import { Shield, Clock, Heart } from "lucide-react";
 const values = [
   { icon: Heart, label: "Compassion", desc: "Écoute et bienveillance à chaque instant" },
   { icon: Shield, label: "Confiance", desc: "Transparence totale dans nos démarches" },
-  { icon: Clock, label: "Disponibilité", desc: "À vos côtés 24h/24, 7j/7" },
+  { icon: Clock, label: "Disponibilité", desc: "À vos côtés 7j/7" },
 ];
 
 const AboutSection = () => {
@@ -16,21 +16,23 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <AnimatedSection>
             <p className="text-accent font-medium tracking-[0.2em] uppercase text-sm mb-3">
-              Qui sommes-nous
+              Qui sommes-nous ?
             </p>
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-foreground mb-6">
               Un accompagnement
               <span className="text-gold-gradient italic"> humain</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Depuis plus de 20 ans, Espoir Funéraire accompagne les familles avec
-              dignité et respect dans les moments les plus difficiles. Notre équipe
-              dévouée met tout en œuvre pour alléger le poids de ces épreuves.
+              Espoir Funéraire accompagne les familles avec dignité et respect dans
+              les moments les plus difficiles. Notre équipe dévouée met tout en
+              œuvre pour alléger le poids de ces épreuves et vous guider avec
+              bienveillance.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Chaque vie est unique, et nous croyons que chaque hommage doit l&apos;être
+              Chaque vie est unique et nous croyons que chaque hommage doit l&apos;être
               aussi. C&apos;est pourquoi nous proposons des services entièrement
-              personnalisés, adaptés à vos souhaits et à vos convictions.
+              personnalisés, adaptés à vos souhaits, vos convictions et votre
+              situation.
             </p>
           </AnimatedSection>
 

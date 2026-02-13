@@ -30,7 +30,7 @@ const HeroSection = () => {
           className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-primary-foreground leading-tight mb-6"
         >
           Espoir{" "}
-          <span className="text-gold-gradient italic">Funéraire</span>
+          <span className="text-gold-gradient italic inline-block pr-1">Funéraire</span>
         </motion.h1>
 
         <motion.p
