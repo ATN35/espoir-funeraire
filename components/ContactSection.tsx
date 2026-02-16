@@ -53,7 +53,7 @@ const ContactSection = () => {
             >
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
-                  <label className="text-sm text-secondary-foreground/70 mb-1.5 block">Nom</label>
+                  <label className="text-sm text-secondary-foreground/70 mb-1.5 block">Nom *</label>
                   <input
                     type="text"
                     name="name"
@@ -73,7 +73,7 @@ const ContactSection = () => {
                 </div>
               </div>
               <div>
-                <label className="text-sm text-secondary-foreground/70 mb-1.5 block">Email</label>
+                <label className="text-sm text-secondary-foreground/70 mb-1.5 block">Email *</label>
                 <input
                   type="email"
                   name="email"
@@ -83,7 +83,7 @@ const ContactSection = () => {
                 />
               </div>
               <div>
-                <label className="text-sm text-secondary-foreground/70 mb-1.5 block">Message</label>
+                <label className="text-sm text-secondary-foreground/70 mb-1.5 block">Message *</label>
                 <textarea
                   rows={4}
                   name="message"

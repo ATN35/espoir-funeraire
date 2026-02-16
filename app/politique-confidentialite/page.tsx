@@ -16,7 +16,7 @@ export default function PolitiqueConfidentialite() {
         
         <div className="prose prose-invert max-w-none space-y-8 text-primary-foreground/80">
           <p className="text-sm text-primary-foreground/60">
-            Dernière mise à jour : 12 février 2026
+            Dernière mise à jour : 16 février 2026
           </p>
 
           <section>
@@ -58,7 +58,7 @@ export default function PolitiqueConfidentialite() {
             <p className="mt-4">
               <strong className="text-gold">Traitement technique :</strong> l&apos;envoi des messages est
               assuré par un prestataire tiers (Formspree). Les données saisies sont transmises
-              uniquement pour délivrer votre message et ne sont pas utilisées a des fins
+              uniquement pour délivrer votre message et ne sont pas utilisées à des fins
               commerciales.
             </p>
             <p className="mt-4">
@@ -86,8 +86,8 @@ export default function PolitiqueConfidentialite() {
               pour le traitement de vos demandes. Nous ne vendons ni ne louons vos données à des tiers.
             </p>
             <p className="mt-4">
-              Les données peuvent etre transmises a nos sous-traitants techniques (hebergeur,
-              service d&apos;emailing Formspree) qui agissent sous notre responsabilite et selon nos instructions.
+              Les données peuvent être transmises à nos sous-traitants techniques (hébergeur,
+              service d&apos;emailing Formspree) qui agissent sous notre responsabilité et selon nos instructions.
             </p>
           </section>
 
@@ -148,9 +148,9 @@ export default function PolitiqueConfidentialite() {
               7. Transferts de données hors UE
             </h2>
             <p>
-              Selon les conditions du prestataire d&apos;emailing (Formspree), certaines donnees peuvent
-              etre traitees hors de l&apos;Union Europeenne. Dans ce cas, les transferts sont encadres
-              par des garanties appropriees conformes au RGPD.
+              Selon les conditions du prestataire d&apos;emailing (Formspree), certaines données peuvent
+              être traitées hors de l&apos;Union Européenne. Dans ce cas, les transferts sont encadrés
+              par des garanties appropriées conformes au RGPD.
             </p>
           </section>
 
